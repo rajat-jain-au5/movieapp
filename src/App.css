@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+h6{
+  color: red;
+}
+
+nav{
+  background-color: #002244;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  height: 50px;
+  
+}
+.movie{
+  color: white;
+
+}
+.movie:hover{
+ text-decoration: none;
+ color: white;
+} 
+.row{
+  flex-wrap: nowrap;
+}
+.card{
+  text-align: center;
+  padding-top: 10px;
+  opacity: 1;
+  width: 200px;
+  color: white;
+}
+
+.card-title{
+  color: #262626;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0 !important;
+}
+
+.container{
+  margin-top: 100px;
+}
+img {
+  display:block;
+  margin:auto;
+}
+.slick-prev:before, .slick-next:before {
+  color: black !important;
+}
+
+.text{
+  background-color:#5097A5;
+  color: white;
+  margin-top: 20px;
+}
+.title{
+
+  background-color:black;
+  color: white;
+  width:200px;
+  margin-left: 7px;
+  height:50px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+}
